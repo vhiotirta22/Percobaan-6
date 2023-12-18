@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:text="Profile"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:text="Name : Vhio Tirta Anggun Azizah"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:text="NIM : F55122066"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:textStyle="normal" />
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:text="Sosial Media"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="49dp"
+        android:src="@drawable/facebook"/>
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Vhio Tirta Anggun Azizah"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="49dp"
+        android:src="@drawable/instagram"/>
+
+    <EditText
+        android:id="@+id/editTextText1"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@vhiotirta"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/wa" />
+
+    <EditText
+        android:id="@+id/editTextTex2t"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="+62823-4658-8337"
+        android:textAlignment="center" />
+
+</LinearLayout>
